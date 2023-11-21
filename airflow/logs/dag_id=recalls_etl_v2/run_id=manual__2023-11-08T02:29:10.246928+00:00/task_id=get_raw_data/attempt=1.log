@@ -1,0 +1,37 @@
+[2023-11-08T02:29:13.722+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: recalls_etl_v2.get_raw_data manual__2023-11-08T02:29:10.246928+00:00 [queued]>
+[2023-11-08T02:29:13.736+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: recalls_etl_v2.get_raw_data manual__2023-11-08T02:29:10.246928+00:00 [queued]>
+[2023-11-08T02:29:13.736+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2023-11-08T02:29:13.757+0000] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): get_raw_data> on 2023-11-08 02:29:10.246928+00:00
+[2023-11-08T02:29:13.764+0000] {standard_task_runner.py:57} INFO - Started process 408 to run task
+[2023-11-08T02:29:13.769+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'recalls_etl_v2', 'get_raw_data', 'manual__2023-11-08T02:29:10.246928+00:00', '--job-id', '28', '--raw', '--subdir', 'DAGS_FOLDER/recalls_etl_v2.py', '--cfg-path', '/tmp/tmpml8q0knd']
+[2023-11-08T02:29:13.770+0000] {standard_task_runner.py:85} INFO - Job 28: Subtask get_raw_data
+[2023-11-08T02:29:13.842+0000] {task_command.py:416} INFO - Running <TaskInstance: recalls_etl_v2.get_raw_data manual__2023-11-08T02:29:10.246928+00:00 [running]> on host d2f41c2a3488
+[2023-11-08T02:29:13.974+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='recalls_etl_v2' AIRFLOW_CTX_TASK_ID='get_raw_data' AIRFLOW_CTX_EXECUTION_DATE='2023-11-08T02:29:10.246928+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-11-08T02:29:10.246928+00:00'
+[2023-11-08T02:30:21.460+0000] {taskinstance.py:1937} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/requests/models.py", line 971, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "/usr/local/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/usr/local/lib/python3.8/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/local/lib/python3.8/json/decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Unterminated string starting at: line 1 column 8388597 (char 8388596)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 192, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 209, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/recalls_etl_v2.py", line 31, in get_recall_data
+    response_data = response.json()
+  File "/home/airflow/.local/lib/python3.8/site-packages/requests/models.py", line 975, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Unterminated string starting at: line 1 column 8388597 (char 8388596)
+[2023-11-08T02:30:21.474+0000] {taskinstance.py:1400} INFO - Marking task as FAILED. dag_id=recalls_etl_v2, task_id=get_raw_data, execution_date=20231108T022910, start_date=20231108T022913, end_date=20231108T023021
+[2023-11-08T02:30:21.493+0000] {standard_task_runner.py:104} ERROR - Failed to execute job 28 for task get_raw_data (Unterminated string starting at: line 1 column 8388597 (char 8388596); 408)
+[2023-11-08T02:30:21.538+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2023-11-08T02:30:21.588+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,690 @@
+[2023-11-04T02:47:16.435+0000] {processor.py:157} INFO - Started process (PID=34) to work on /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T02:47:16.436+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/recalls_etl_v1.py for tasks to queue
+[2023-11-04T02:47:16.440+0000] {logging_mixin.py:151} INFO - [2023-11-04T02:47:16.440+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T02:47:17.396+0000] {processor.py:839} INFO - DAG(s) dict_keys(['recalls_etl_v1']) retrieved from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T02:47:17.568+0000] {logging_mixin.py:151} INFO - [2023-11-04T02:47:17.567+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-04T02:47:17.585+0000] {logging_mixin.py:151} INFO - [2023-11-04T02:47:17.584+0000] {dag.py:3722} INFO - Setting next_dagrun for recalls_etl_v1 to None, run_after=None
+[2023-11-04T02:47:17.617+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/recalls_etl_v1.py took 1.188 seconds
+[2023-11-04T02:47:47.696+0000] {processor.py:157} INFO - Started process (PID=95) to work on /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T02:47:47.698+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/recalls_etl_v1.py for tasks to queue
+[2023-11-04T02:47:47.700+0000] {logging_mixin.py:151} INFO - [2023-11-04T02:47:47.700+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T02:47:48.228+0000] {processor.py:839} INFO - DAG(s) dict_keys(['recalls_etl_v1']) retrieved from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T02:47:48.247+0000] {logging_mixin.py:151} INFO - [2023-11-04T02:47:48.246+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-04T02:47:48.261+0000] {logging_mixin.py:151} INFO - [2023-11-04T02:47:48.261+0000] {dag.py:3722} INFO - Setting next_dagrun for recalls_etl_v1 to None, run_after=None
+[2023-11-04T02:47:48.283+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/recalls_etl_v1.py took 0.591 seconds
+[2023-11-04T02:48:18.365+0000] {processor.py:157} INFO - Started process (PID=156) to work on /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T02:48:18.366+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/recalls_etl_v1.py for tasks to queue
+[2023-11-04T02:48:18.370+0000] {logging_mixin.py:151} INFO - [2023-11-04T02:48:18.369+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T02:48:18.873+0000] {processor.py:839} INFO - DAG(s) dict_keys(['recalls_etl_v1']) retrieved from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T02:48:18.892+0000] {logging_mixin.py:151} INFO - [2023-11-04T02:48:18.892+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-04T02:48:18.905+0000] {logging_mixin.py:151} INFO - [2023-11-04T02:48:18.905+0000] {dag.py:3722} INFO - Setting next_dagrun for recalls_etl_v1 to None, run_after=None
+[2023-11-04T02:48:18.930+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/recalls_etl_v1.py took 0.569 seconds
+[2023-11-04T02:48:49.750+0000] {processor.py:157} INFO - Started process (PID=217) to work on /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T02:48:49.753+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/recalls_etl_v1.py for tasks to queue
+[2023-11-04T02:48:49.757+0000] {logging_mixin.py:151} INFO - [2023-11-04T02:48:49.756+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T02:48:50.249+0000] {processor.py:839} INFO - DAG(s) dict_keys(['recalls_etl_v1']) retrieved from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T02:48:50.268+0000] {logging_mixin.py:151} INFO - [2023-11-04T02:48:50.267+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-04T02:48:50.281+0000] {logging_mixin.py:151} INFO - [2023-11-04T02:48:50.281+0000] {dag.py:3722} INFO - Setting next_dagrun for recalls_etl_v1 to None, run_after=None
+[2023-11-04T02:48:50.304+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/recalls_etl_v1.py took 0.561 seconds
+[2023-11-04T02:49:20.872+0000] {processor.py:157} INFO - Started process (PID=274) to work on /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T02:49:20.873+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/recalls_etl_v1.py for tasks to queue
+[2023-11-04T02:49:20.877+0000] {logging_mixin.py:151} INFO - [2023-11-04T02:49:20.876+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T02:49:21.391+0000] {processor.py:839} INFO - DAG(s) dict_keys(['recalls_etl_v1']) retrieved from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T02:49:21.410+0000] {logging_mixin.py:151} INFO - [2023-11-04T02:49:21.410+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-04T02:49:21.423+0000] {logging_mixin.py:151} INFO - [2023-11-04T02:49:21.423+0000] {dag.py:3722} INFO - Setting next_dagrun for recalls_etl_v1 to None, run_after=None
+[2023-11-04T02:49:21.444+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/recalls_etl_v1.py took 0.577 seconds
+[2023-11-04T02:49:51.491+0000] {processor.py:157} INFO - Started process (PID=332) to work on /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T02:49:51.499+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/recalls_etl_v1.py for tasks to queue
+[2023-11-04T02:49:51.501+0000] {logging_mixin.py:151} INFO - [2023-11-04T02:49:51.501+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T02:49:52.042+0000] {processor.py:839} INFO - DAG(s) dict_keys(['recalls_etl_v1']) retrieved from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T02:49:52.065+0000] {logging_mixin.py:151} INFO - [2023-11-04T02:49:52.064+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-04T02:49:52.080+0000] {logging_mixin.py:151} INFO - [2023-11-04T02:49:52.080+0000] {dag.py:3722} INFO - Setting next_dagrun for recalls_etl_v1 to None, run_after=None
+[2023-11-04T02:49:52.100+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/recalls_etl_v1.py took 0.613 seconds
+[2023-11-04T02:50:22.128+0000] {processor.py:157} INFO - Started process (PID=391) to work on /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T02:50:22.129+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/recalls_etl_v1.py for tasks to queue
+[2023-11-04T02:50:22.132+0000] {logging_mixin.py:151} INFO - [2023-11-04T02:50:22.131+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T02:50:22.642+0000] {processor.py:839} INFO - DAG(s) dict_keys(['recalls_etl_v1']) retrieved from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T02:50:22.661+0000] {logging_mixin.py:151} INFO - [2023-11-04T02:50:22.661+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-04T02:50:22.674+0000] {logging_mixin.py:151} INFO - [2023-11-04T02:50:22.673+0000] {dag.py:3722} INFO - Setting next_dagrun for recalls_etl_v1 to None, run_after=None
+[2023-11-04T02:50:22.694+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/recalls_etl_v1.py took 0.570 seconds
+[2023-11-04T02:50:52.763+0000] {processor.py:157} INFO - Started process (PID=452) to work on /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T02:50:52.765+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/recalls_etl_v1.py for tasks to queue
+[2023-11-04T02:50:52.767+0000] {logging_mixin.py:151} INFO - [2023-11-04T02:50:52.767+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T02:50:53.284+0000] {processor.py:839} INFO - DAG(s) dict_keys(['recalls_etl_v1']) retrieved from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T02:50:53.303+0000] {logging_mixin.py:151} INFO - [2023-11-04T02:50:53.302+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-04T02:50:53.316+0000] {logging_mixin.py:151} INFO - [2023-11-04T02:50:53.316+0000] {dag.py:3722} INFO - Setting next_dagrun for recalls_etl_v1 to None, run_after=None
+[2023-11-04T02:50:53.340+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/recalls_etl_v1.py took 0.580 seconds
+[2023-11-04T02:51:23.442+0000] {processor.py:157} INFO - Started process (PID=514) to work on /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T02:51:23.444+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/recalls_etl_v1.py for tasks to queue
+[2023-11-04T02:51:23.447+0000] {logging_mixin.py:151} INFO - [2023-11-04T02:51:23.446+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T02:51:24.040+0000] {processor.py:839} INFO - DAG(s) dict_keys(['recalls_etl_v1']) retrieved from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T02:51:24.059+0000] {logging_mixin.py:151} INFO - [2023-11-04T02:51:24.058+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-04T02:51:24.072+0000] {logging_mixin.py:151} INFO - [2023-11-04T02:51:24.072+0000] {dag.py:3722} INFO - Setting next_dagrun for recalls_etl_v1 to None, run_after=None
+[2023-11-04T02:51:24.097+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/recalls_etl_v1.py took 0.659 seconds
+[2023-11-04T02:51:54.159+0000] {processor.py:157} INFO - Started process (PID=576) to work on /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T02:51:54.160+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/recalls_etl_v1.py for tasks to queue
+[2023-11-04T02:51:54.163+0000] {logging_mixin.py:151} INFO - [2023-11-04T02:51:54.162+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T02:51:54.665+0000] {processor.py:839} INFO - DAG(s) dict_keys(['recalls_etl_v1']) retrieved from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T02:51:54.684+0000] {logging_mixin.py:151} INFO - [2023-11-04T02:51:54.683+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-04T02:51:54.697+0000] {logging_mixin.py:151} INFO - [2023-11-04T02:51:54.697+0000] {dag.py:3722} INFO - Setting next_dagrun for recalls_etl_v1 to None, run_after=None
+[2023-11-04T02:51:54.721+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/recalls_etl_v1.py took 0.566 seconds
+[2023-11-04T02:52:24.894+0000] {processor.py:157} INFO - Started process (PID=636) to work on /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T02:52:24.894+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/recalls_etl_v1.py for tasks to queue
+[2023-11-04T02:52:24.897+0000] {logging_mixin.py:151} INFO - [2023-11-04T02:52:24.897+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T02:52:25.441+0000] {processor.py:839} INFO - DAG(s) dict_keys(['recalls_etl_v1']) retrieved from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T02:52:25.460+0000] {logging_mixin.py:151} INFO - [2023-11-04T02:52:25.460+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-04T02:52:25.474+0000] {logging_mixin.py:151} INFO - [2023-11-04T02:52:25.474+0000] {dag.py:3722} INFO - Setting next_dagrun for recalls_etl_v1 to None, run_after=None
+[2023-11-04T02:52:25.496+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/recalls_etl_v1.py took 0.606 seconds
+[2023-11-04T02:52:55.648+0000] {processor.py:157} INFO - Started process (PID=697) to work on /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T02:52:55.650+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/recalls_etl_v1.py for tasks to queue
+[2023-11-04T02:52:55.652+0000] {logging_mixin.py:151} INFO - [2023-11-04T02:52:55.652+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T02:52:56.169+0000] {processor.py:839} INFO - DAG(s) dict_keys(['recalls_etl_v1']) retrieved from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T02:52:56.188+0000] {logging_mixin.py:151} INFO - [2023-11-04T02:52:56.188+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-04T02:52:56.201+0000] {logging_mixin.py:151} INFO - [2023-11-04T02:52:56.200+0000] {dag.py:3722} INFO - Setting next_dagrun for recalls_etl_v1 to None, run_after=None
+[2023-11-04T02:52:56.222+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/recalls_etl_v1.py took 0.578 seconds
+[2023-11-04T02:53:26.389+0000] {processor.py:157} INFO - Started process (PID=758) to work on /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T02:53:26.390+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/recalls_etl_v1.py for tasks to queue
+[2023-11-04T02:53:26.392+0000] {logging_mixin.py:151} INFO - [2023-11-04T02:53:26.392+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T02:53:26.919+0000] {processor.py:839} INFO - DAG(s) dict_keys(['recalls_etl_v1']) retrieved from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T02:53:26.938+0000] {logging_mixin.py:151} INFO - [2023-11-04T02:53:26.937+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-04T02:53:26.950+0000] {logging_mixin.py:151} INFO - [2023-11-04T02:53:26.950+0000] {dag.py:3722} INFO - Setting next_dagrun for recalls_etl_v1 to None, run_after=None
+[2023-11-04T02:53:26.972+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/recalls_etl_v1.py took 0.587 seconds
+[2023-11-04T02:53:57.081+0000] {processor.py:157} INFO - Started process (PID=816) to work on /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T02:53:57.083+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/recalls_etl_v1.py for tasks to queue
+[2023-11-04T02:53:57.085+0000] {logging_mixin.py:151} INFO - [2023-11-04T02:53:57.085+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T02:53:57.586+0000] {processor.py:839} INFO - DAG(s) dict_keys(['recalls_etl_v1']) retrieved from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T02:53:57.606+0000] {logging_mixin.py:151} INFO - [2023-11-04T02:53:57.606+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-04T02:53:57.621+0000] {logging_mixin.py:151} INFO - [2023-11-04T02:53:57.621+0000] {dag.py:3722} INFO - Setting next_dagrun for recalls_etl_v1 to None, run_after=None
+[2023-11-04T02:53:57.650+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/recalls_etl_v1.py took 0.573 seconds
+[2023-11-04T02:54:27.692+0000] {processor.py:157} INFO - Started process (PID=879) to work on /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T02:54:27.693+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/recalls_etl_v1.py for tasks to queue
+[2023-11-04T02:54:27.696+0000] {logging_mixin.py:151} INFO - [2023-11-04T02:54:27.695+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T02:54:28.204+0000] {processor.py:839} INFO - DAG(s) dict_keys(['recalls_etl_v1']) retrieved from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T02:54:28.229+0000] {logging_mixin.py:151} INFO - [2023-11-04T02:54:28.228+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-04T02:54:28.246+0000] {logging_mixin.py:151} INFO - [2023-11-04T02:54:28.246+0000] {dag.py:3722} INFO - Setting next_dagrun for recalls_etl_v1 to None, run_after=None
+[2023-11-04T02:54:28.269+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/recalls_etl_v1.py took 0.581 seconds
+[2023-11-04T02:54:58.837+0000] {processor.py:157} INFO - Started process (PID=936) to work on /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T02:54:58.838+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/recalls_etl_v1.py for tasks to queue
+[2023-11-04T02:54:58.840+0000] {logging_mixin.py:151} INFO - [2023-11-04T02:54:58.840+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T02:54:59.325+0000] {processor.py:839} INFO - DAG(s) dict_keys(['recalls_etl_v1']) retrieved from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T02:54:59.344+0000] {logging_mixin.py:151} INFO - [2023-11-04T02:54:59.343+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-04T02:54:59.359+0000] {logging_mixin.py:151} INFO - [2023-11-04T02:54:59.359+0000] {dag.py:3722} INFO - Setting next_dagrun for recalls_etl_v1 to None, run_after=None
+[2023-11-04T02:54:59.391+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/recalls_etl_v1.py took 0.558 seconds
+[2023-11-04T02:55:29.659+0000] {processor.py:157} INFO - Started process (PID=993) to work on /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T02:55:29.660+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/recalls_etl_v1.py for tasks to queue
+[2023-11-04T02:55:29.664+0000] {logging_mixin.py:151} INFO - [2023-11-04T02:55:29.664+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T02:55:30.165+0000] {processor.py:839} INFO - DAG(s) dict_keys(['recalls_etl_v1']) retrieved from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T02:55:30.184+0000] {logging_mixin.py:151} INFO - [2023-11-04T02:55:30.184+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-04T02:55:30.196+0000] {logging_mixin.py:151} INFO - [2023-11-04T02:55:30.196+0000] {dag.py:3722} INFO - Setting next_dagrun for recalls_etl_v1 to None, run_after=None
+[2023-11-04T02:55:30.217+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/recalls_etl_v1.py took 0.573 seconds
+[2023-11-04T02:56:01.092+0000] {processor.py:157} INFO - Started process (PID=1051) to work on /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T02:56:01.097+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/recalls_etl_v1.py for tasks to queue
+[2023-11-04T02:56:01.100+0000] {logging_mixin.py:151} INFO - [2023-11-04T02:56:01.100+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T02:56:01.715+0000] {processor.py:839} INFO - DAG(s) dict_keys(['recalls_etl_v1']) retrieved from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T02:56:01.735+0000] {logging_mixin.py:151} INFO - [2023-11-04T02:56:01.734+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-04T02:56:01.747+0000] {logging_mixin.py:151} INFO - [2023-11-04T02:56:01.747+0000] {dag.py:3722} INFO - Setting next_dagrun for recalls_etl_v1 to None, run_after=None
+[2023-11-04T02:56:01.771+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/recalls_etl_v1.py took 0.689 seconds
+[2023-11-04T02:56:32.626+0000] {processor.py:157} INFO - Started process (PID=1108) to work on /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T02:56:32.631+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/recalls_etl_v1.py for tasks to queue
+[2023-11-04T02:56:32.634+0000] {logging_mixin.py:151} INFO - [2023-11-04T02:56:32.634+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T02:56:33.098+0000] {processor.py:839} INFO - DAG(s) dict_keys(['recalls_etl_v1']) retrieved from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T02:56:33.118+0000] {logging_mixin.py:151} INFO - [2023-11-04T02:56:33.118+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-04T02:56:33.130+0000] {logging_mixin.py:151} INFO - [2023-11-04T02:56:33.130+0000] {dag.py:3722} INFO - Setting next_dagrun for recalls_etl_v1 to None, run_after=None
+[2023-11-04T02:56:33.152+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/recalls_etl_v1.py took 0.532 seconds
+[2023-11-04T02:57:03.372+0000] {processor.py:157} INFO - Started process (PID=1165) to work on /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T02:57:03.374+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/recalls_etl_v1.py for tasks to queue
+[2023-11-04T02:57:03.377+0000] {logging_mixin.py:151} INFO - [2023-11-04T02:57:03.377+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T02:57:03.919+0000] {processor.py:839} INFO - DAG(s) dict_keys(['recalls_etl_v1']) retrieved from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T02:57:03.941+0000] {logging_mixin.py:151} INFO - [2023-11-04T02:57:03.940+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-04T02:57:03.954+0000] {logging_mixin.py:151} INFO - [2023-11-04T02:57:03.953+0000] {dag.py:3722} INFO - Setting next_dagrun for recalls_etl_v1 to None, run_after=None
+[2023-11-04T02:57:03.975+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/recalls_etl_v1.py took 0.609 seconds
+[2023-11-04T02:57:34.069+0000] {processor.py:157} INFO - Started process (PID=1229) to work on /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T02:57:34.071+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/recalls_etl_v1.py for tasks to queue
+[2023-11-04T02:57:34.077+0000] {logging_mixin.py:151} INFO - [2023-11-04T02:57:34.077+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T02:57:34.550+0000] {processor.py:839} INFO - DAG(s) dict_keys(['recalls_etl_v1']) retrieved from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T02:57:34.570+0000] {logging_mixin.py:151} INFO - [2023-11-04T02:57:34.569+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-04T02:57:34.583+0000] {logging_mixin.py:151} INFO - [2023-11-04T02:57:34.583+0000] {dag.py:3722} INFO - Setting next_dagrun for recalls_etl_v1 to None, run_after=None
+[2023-11-04T02:57:34.604+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/recalls_etl_v1.py took 0.545 seconds
+[2023-11-04T02:58:04.764+0000] {processor.py:157} INFO - Started process (PID=1286) to work on /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T02:58:04.765+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/recalls_etl_v1.py for tasks to queue
+[2023-11-04T02:58:04.768+0000] {logging_mixin.py:151} INFO - [2023-11-04T02:58:04.768+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T02:58:05.743+0000] {processor.py:839} INFO - DAG(s) dict_keys(['recalls_etl_v1']) retrieved from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T02:58:05.810+0000] {logging_mixin.py:151} INFO - [2023-11-04T02:58:05.809+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-04T02:58:05.876+0000] {logging_mixin.py:151} INFO - [2023-11-04T02:58:05.875+0000] {dag.py:3722} INFO - Setting next_dagrun for recalls_etl_v1 to None, run_after=None
+[2023-11-04T02:58:05.953+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/recalls_etl_v1.py took 1.193 seconds
+[2023-11-04T02:58:36.115+0000] {processor.py:157} INFO - Started process (PID=1343) to work on /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T02:58:36.118+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/recalls_etl_v1.py for tasks to queue
+[2023-11-04T02:58:36.122+0000] {logging_mixin.py:151} INFO - [2023-11-04T02:58:36.122+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T02:58:36.603+0000] {processor.py:839} INFO - DAG(s) dict_keys(['recalls_etl_v1']) retrieved from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T02:58:36.622+0000] {logging_mixin.py:151} INFO - [2023-11-04T02:58:36.621+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-04T02:58:36.634+0000] {logging_mixin.py:151} INFO - [2023-11-04T02:58:36.634+0000] {dag.py:3722} INFO - Setting next_dagrun for recalls_etl_v1 to None, run_after=None
+[2023-11-04T02:58:36.661+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/recalls_etl_v1.py took 0.552 seconds
+[2023-11-04T02:59:07.095+0000] {processor.py:157} INFO - Started process (PID=1400) to work on /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T02:59:07.096+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/recalls_etl_v1.py for tasks to queue
+[2023-11-04T02:59:07.099+0000] {logging_mixin.py:151} INFO - [2023-11-04T02:59:07.098+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T02:59:07.733+0000] {processor.py:839} INFO - DAG(s) dict_keys(['recalls_etl_v1']) retrieved from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T02:59:07.751+0000] {logging_mixin.py:151} INFO - [2023-11-04T02:59:07.750+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-04T02:59:07.763+0000] {logging_mixin.py:151} INFO - [2023-11-04T02:59:07.763+0000] {dag.py:3722} INFO - Setting next_dagrun for recalls_etl_v1 to None, run_after=None
+[2023-11-04T02:59:07.784+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/recalls_etl_v1.py took 0.694 seconds
+[2023-11-04T02:59:38.757+0000] {processor.py:157} INFO - Started process (PID=1457) to work on /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T02:59:38.760+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/recalls_etl_v1.py for tasks to queue
+[2023-11-04T02:59:38.766+0000] {logging_mixin.py:151} INFO - [2023-11-04T02:59:38.765+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T02:59:39.399+0000] {processor.py:839} INFO - DAG(s) dict_keys(['recalls_etl_v1']) retrieved from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T02:59:39.432+0000] {logging_mixin.py:151} INFO - [2023-11-04T02:59:39.431+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-04T02:59:39.454+0000] {logging_mixin.py:151} INFO - [2023-11-04T02:59:39.454+0000] {dag.py:3722} INFO - Setting next_dagrun for recalls_etl_v1 to None, run_after=None
+[2023-11-04T02:59:39.496+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/recalls_etl_v1.py took 0.748 seconds
+[2023-11-04T03:00:09.909+0000] {processor.py:157} INFO - Started process (PID=1514) to work on /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:00:09.910+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/recalls_etl_v1.py for tasks to queue
+[2023-11-04T03:00:09.912+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:00:09.912+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:00:10.436+0000] {processor.py:839} INFO - DAG(s) dict_keys(['recalls_etl_v1']) retrieved from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:00:10.457+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:00:10.456+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-04T03:00:10.470+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:00:10.470+0000] {dag.py:3722} INFO - Setting next_dagrun for recalls_etl_v1 to None, run_after=None
+[2023-11-04T03:00:10.493+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/recalls_etl_v1.py took 0.587 seconds
+[2023-11-04T03:00:40.595+0000] {processor.py:157} INFO - Started process (PID=1571) to work on /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:00:40.598+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/recalls_etl_v1.py for tasks to queue
+[2023-11-04T03:00:40.603+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:00:40.602+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:00:41.087+0000] {processor.py:839} INFO - DAG(s) dict_keys(['recalls_etl_v1']) retrieved from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:00:41.108+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:00:41.108+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-04T03:00:41.123+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:00:41.123+0000] {dag.py:3722} INFO - Setting next_dagrun for recalls_etl_v1 to None, run_after=None
+[2023-11-04T03:00:41.146+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/recalls_etl_v1.py took 0.559 seconds
+[2023-11-04T03:01:11.553+0000] {processor.py:157} INFO - Started process (PID=1628) to work on /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:01:11.558+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/recalls_etl_v1.py for tasks to queue
+[2023-11-04T03:01:11.562+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:01:11.561+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:01:12.059+0000] {processor.py:839} INFO - DAG(s) dict_keys(['recalls_etl_v1']) retrieved from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:01:12.079+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:01:12.078+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-04T03:01:12.103+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:01:12.103+0000] {dag.py:3722} INFO - Setting next_dagrun for recalls_etl_v1 to None, run_after=None
+[2023-11-04T03:01:12.134+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/recalls_etl_v1.py took 0.586 seconds
+[2023-11-04T03:01:42.999+0000] {processor.py:157} INFO - Started process (PID=1686) to work on /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:01:43.004+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/recalls_etl_v1.py for tasks to queue
+[2023-11-04T03:01:43.008+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:01:43.008+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:01:43.477+0000] {processor.py:839} INFO - DAG(s) dict_keys(['recalls_etl_v1']) retrieved from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:01:43.496+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:01:43.496+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-04T03:01:43.510+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:01:43.509+0000] {dag.py:3722} INFO - Setting next_dagrun for recalls_etl_v1 to None, run_after=None
+[2023-11-04T03:01:43.532+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/recalls_etl_v1.py took 0.541 seconds
+[2023-11-04T03:02:13.709+0000] {processor.py:157} INFO - Started process (PID=1743) to work on /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:02:13.714+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/recalls_etl_v1.py for tasks to queue
+[2023-11-04T03:02:13.718+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:02:13.717+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:02:14.253+0000] {processor.py:839} INFO - DAG(s) dict_keys(['recalls_etl_v1']) retrieved from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:02:14.274+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:02:14.273+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-04T03:02:14.289+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:02:14.288+0000] {dag.py:3722} INFO - Setting next_dagrun for recalls_etl_v1 to None, run_after=None
+[2023-11-04T03:02:14.317+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/recalls_etl_v1.py took 0.625 seconds
+[2023-11-04T03:02:30.626+0000] {processor.py:157} INFO - Started process (PID=1749) to work on /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:02:30.627+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/recalls_etl_v1.py for tasks to queue
+[2023-11-04T03:02:30.631+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:02:30.631+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:02:31.200+0000] {processor.py:839} INFO - DAG(s) dict_keys(['recalls_etl_v1']) retrieved from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:02:31.317+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:02:31.316+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-04T03:02:31.329+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:02:31.329+0000] {dag.py:3722} INFO - Setting next_dagrun for recalls_etl_v1 to None, run_after=None
+[2023-11-04T03:02:31.355+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/recalls_etl_v1.py took 0.736 seconds
+[2023-11-04T03:02:34.154+0000] {processor.py:157} INFO - Started process (PID=1767) to work on /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:02:34.155+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/recalls_etl_v1.py for tasks to queue
+[2023-11-04T03:02:34.158+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:02:34.157+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:02:34.642+0000] {processor.py:839} INFO - DAG(s) dict_keys(['recalls_etl_v1']) retrieved from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:02:34.654+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:02:34.654+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-04T03:02:34.668+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:02:34.668+0000] {dag.py:3722} INFO - Setting next_dagrun for recalls_etl_v1 to None, run_after=None
+[2023-11-04T03:02:34.693+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/recalls_etl_v1.py took 0.542 seconds
+[2023-11-04T03:02:47.022+0000] {processor.py:157} INFO - Started process (PID=1804) to work on /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:02:47.028+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/recalls_etl_v1.py for tasks to queue
+[2023-11-04T03:02:47.032+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:02:47.031+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:02:47.544+0000] {processor.py:839} INFO - DAG(s) dict_keys(['recalls_etl_v1']) retrieved from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:02:47.557+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:02:47.556+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-04T03:02:47.571+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:02:47.571+0000] {dag.py:3722} INFO - Setting next_dagrun for recalls_etl_v1 to None, run_after=None
+[2023-11-04T03:02:47.598+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/recalls_etl_v1.py took 0.585 seconds
+[2023-11-04T03:03:18.126+0000] {processor.py:157} INFO - Started process (PID=1861) to work on /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:03:18.127+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/recalls_etl_v1.py for tasks to queue
+[2023-11-04T03:03:18.129+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:03:18.129+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:03:18.615+0000] {processor.py:839} INFO - DAG(s) dict_keys(['recalls_etl_v1']) retrieved from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:03:18.725+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:03:18.724+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-04T03:03:18.738+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:03:18.738+0000] {dag.py:3722} INFO - Setting next_dagrun for recalls_etl_v1 to None, run_after=None
+[2023-11-04T03:03:18.767+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/recalls_etl_v1.py took 0.648 seconds
+[2023-11-04T03:03:49.706+0000] {processor.py:157} INFO - Started process (PID=1918) to work on /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:03:49.708+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/recalls_etl_v1.py for tasks to queue
+[2023-11-04T03:03:49.711+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:03:49.711+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:03:50.255+0000] {processor.py:839} INFO - DAG(s) dict_keys(['recalls_etl_v1']) retrieved from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:03:50.275+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:03:50.274+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-04T03:03:50.287+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:03:50.287+0000] {dag.py:3722} INFO - Setting next_dagrun for recalls_etl_v1 to None, run_after=None
+[2023-11-04T03:03:50.309+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/recalls_etl_v1.py took 0.607 seconds
+[2023-11-04T03:04:20.615+0000] {processor.py:157} INFO - Started process (PID=1975) to work on /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:04:20.616+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/recalls_etl_v1.py for tasks to queue
+[2023-11-04T03:04:20.620+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:04:20.619+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:04:21.165+0000] {processor.py:839} INFO - DAG(s) dict_keys(['recalls_etl_v1']) retrieved from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:04:21.185+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:04:21.184+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-04T03:04:21.197+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:04:21.197+0000] {dag.py:3722} INFO - Setting next_dagrun for recalls_etl_v1 to None, run_after=None
+[2023-11-04T03:04:21.220+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/recalls_etl_v1.py took 0.609 seconds
+[2023-11-04T03:04:51.915+0000] {processor.py:157} INFO - Started process (PID=2032) to work on /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:04:51.917+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/recalls_etl_v1.py for tasks to queue
+[2023-11-04T03:04:51.921+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:04:51.921+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:04:52.406+0000] {processor.py:839} INFO - DAG(s) dict_keys(['recalls_etl_v1']) retrieved from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:04:52.427+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:04:52.426+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-04T03:04:52.441+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:04:52.441+0000] {dag.py:3722} INFO - Setting next_dagrun for recalls_etl_v1 to None, run_after=None
+[2023-11-04T03:04:52.466+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/recalls_etl_v1.py took 0.557 seconds
+[2023-11-04T03:05:22.830+0000] {processor.py:157} INFO - Started process (PID=2089) to work on /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:05:22.833+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/recalls_etl_v1.py for tasks to queue
+[2023-11-04T03:05:22.839+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:05:22.839+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:05:23.351+0000] {processor.py:839} INFO - DAG(s) dict_keys(['recalls_etl_v1']) retrieved from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:05:23.372+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:05:23.371+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-04T03:05:23.384+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:05:23.384+0000] {dag.py:3722} INFO - Setting next_dagrun for recalls_etl_v1 to None, run_after=None
+[2023-11-04T03:05:23.408+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/recalls_etl_v1.py took 0.583 seconds
+[2023-11-04T03:05:53.600+0000] {processor.py:157} INFO - Started process (PID=2146) to work on /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:05:53.601+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/recalls_etl_v1.py for tasks to queue
+[2023-11-04T03:05:53.603+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:05:53.603+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:05:54.113+0000] {processor.py:839} INFO - DAG(s) dict_keys(['recalls_etl_v1']) retrieved from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:05:54.134+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:05:54.133+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-04T03:05:54.147+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:05:54.147+0000] {dag.py:3722} INFO - Setting next_dagrun for recalls_etl_v1 to None, run_after=None
+[2023-11-04T03:05:54.172+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/recalls_etl_v1.py took 0.576 seconds
+[2023-11-04T03:06:25.004+0000] {processor.py:157} INFO - Started process (PID=2203) to work on /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:06:25.009+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/recalls_etl_v1.py for tasks to queue
+[2023-11-04T03:06:25.013+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:06:25.012+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:06:25.484+0000] {processor.py:839} INFO - DAG(s) dict_keys(['recalls_etl_v1']) retrieved from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:06:25.506+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:06:25.505+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-04T03:06:25.519+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:06:25.519+0000] {dag.py:3722} INFO - Setting next_dagrun for recalls_etl_v1 to None, run_after=None
+[2023-11-04T03:06:25.539+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/recalls_etl_v1.py took 0.541 seconds
+[2023-11-04T03:06:55.972+0000] {processor.py:157} INFO - Started process (PID=2260) to work on /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:06:55.974+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/recalls_etl_v1.py for tasks to queue
+[2023-11-04T03:06:55.978+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:06:55.977+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:06:56.454+0000] {processor.py:839} INFO - DAG(s) dict_keys(['recalls_etl_v1']) retrieved from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:06:56.475+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:06:56.475+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-04T03:06:56.489+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:06:56.489+0000] {dag.py:3722} INFO - Setting next_dagrun for recalls_etl_v1 to None, run_after=None
+[2023-11-04T03:06:56.515+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/recalls_etl_v1.py took 0.550 seconds
+[2023-11-04T03:07:26.974+0000] {processor.py:157} INFO - Started process (PID=2317) to work on /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:07:26.979+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/recalls_etl_v1.py for tasks to queue
+[2023-11-04T03:07:26.984+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:07:26.983+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:07:27.720+0000] {processor.py:839} INFO - DAG(s) dict_keys(['recalls_etl_v1']) retrieved from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:07:27.747+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:07:27.746+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-04T03:07:27.768+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:07:27.768+0000] {dag.py:3722} INFO - Setting next_dagrun for recalls_etl_v1 to None, run_after=None
+[2023-11-04T03:07:27.809+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/recalls_etl_v1.py took 0.841 seconds
+[2023-11-04T03:07:58.331+0000] {processor.py:157} INFO - Started process (PID=2374) to work on /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:07:58.332+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/recalls_etl_v1.py for tasks to queue
+[2023-11-04T03:07:58.336+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:07:58.335+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:07:58.813+0000] {processor.py:839} INFO - DAG(s) dict_keys(['recalls_etl_v1']) retrieved from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:07:58.834+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:07:58.833+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-04T03:07:58.847+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:07:58.846+0000] {dag.py:3722} INFO - Setting next_dagrun for recalls_etl_v1 to None, run_after=None
+[2023-11-04T03:07:58.868+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/recalls_etl_v1.py took 0.543 seconds
+[2023-11-04T03:08:29.595+0000] {processor.py:157} INFO - Started process (PID=2431) to work on /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:08:29.597+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/recalls_etl_v1.py for tasks to queue
+[2023-11-04T03:08:29.601+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:08:29.601+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:08:30.156+0000] {processor.py:839} INFO - DAG(s) dict_keys(['recalls_etl_v1']) retrieved from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:08:30.181+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:08:30.179+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-04T03:08:30.197+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:08:30.197+0000] {dag.py:3722} INFO - Setting next_dagrun for recalls_etl_v1 to None, run_after=None
+[2023-11-04T03:08:30.225+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/recalls_etl_v1.py took 0.637 seconds
+[2023-11-04T03:09:00.375+0000] {processor.py:157} INFO - Started process (PID=2488) to work on /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:09:00.376+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/recalls_etl_v1.py for tasks to queue
+[2023-11-04T03:09:00.378+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:09:00.378+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:09:00.702+0000] {processor.py:839} INFO - DAG(s) dict_keys(['recalls_etl_v1']) retrieved from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:09:00.727+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:09:00.726+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-04T03:09:00.741+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:09:00.741+0000] {dag.py:3722} INFO - Setting next_dagrun for recalls_etl_v1 to None, run_after=None
+[2023-11-04T03:09:00.763+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/recalls_etl_v1.py took 0.393 seconds
+[2023-11-04T03:09:30.835+0000] {processor.py:157} INFO - Started process (PID=2545) to work on /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:09:30.836+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/recalls_etl_v1.py for tasks to queue
+[2023-11-04T03:09:30.839+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:09:30.838+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:09:31.258+0000] {processor.py:839} INFO - DAG(s) dict_keys(['recalls_etl_v1']) retrieved from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:09:31.289+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:09:31.288+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-04T03:09:31.303+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:09:31.303+0000] {dag.py:3722} INFO - Setting next_dagrun for recalls_etl_v1 to None, run_after=None
+[2023-11-04T03:09:31.328+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/recalls_etl_v1.py took 0.496 seconds
+[2023-11-04T03:10:02.241+0000] {processor.py:157} INFO - Started process (PID=2602) to work on /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:10:02.246+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/recalls_etl_v1.py for tasks to queue
+[2023-11-04T03:10:02.253+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:10:02.252+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:10:02.589+0000] {processor.py:839} INFO - DAG(s) dict_keys(['recalls_etl_v1']) retrieved from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:10:02.613+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:10:02.612+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-04T03:10:02.629+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:10:02.628+0000] {dag.py:3722} INFO - Setting next_dagrun for recalls_etl_v1 to None, run_after=None
+[2023-11-04T03:10:02.654+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/recalls_etl_v1.py took 0.423 seconds
+[2023-11-04T03:10:33.525+0000] {processor.py:157} INFO - Started process (PID=2659) to work on /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:10:33.527+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/recalls_etl_v1.py for tasks to queue
+[2023-11-04T03:10:33.530+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:10:33.530+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:10:33.863+0000] {processor.py:839} INFO - DAG(s) dict_keys(['recalls_etl_v1']) retrieved from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:10:33.886+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:10:33.886+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-04T03:10:33.901+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:10:33.901+0000] {dag.py:3722} INFO - Setting next_dagrun for recalls_etl_v1 to None, run_after=None
+[2023-11-04T03:10:33.929+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/recalls_etl_v1.py took 0.410 seconds
+[2023-11-04T03:11:04.145+0000] {processor.py:157} INFO - Started process (PID=2716) to work on /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:11:04.146+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/recalls_etl_v1.py for tasks to queue
+[2023-11-04T03:11:04.149+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:11:04.148+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:11:04.484+0000] {processor.py:839} INFO - DAG(s) dict_keys(['recalls_etl_v1']) retrieved from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:11:04.506+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:11:04.506+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-04T03:11:04.520+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:11:04.520+0000] {dag.py:3722} INFO - Setting next_dagrun for recalls_etl_v1 to None, run_after=None
+[2023-11-04T03:11:04.546+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/recalls_etl_v1.py took 0.405 seconds
+[2023-11-04T03:18:30.114+0000] {processor.py:157} INFO - Started process (PID=35) to work on /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:18:30.117+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/recalls_etl_v1.py for tasks to queue
+[2023-11-04T03:18:30.122+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:18:30.121+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:18:32.109+0000] {processor.py:839} INFO - DAG(s) dict_keys(['recalls_etl_v1']) retrieved from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:18:32.302+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:18:32.302+0000] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-04T03:18:32.316+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:18:32.316+0000] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-04T03:18:32.329+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:18:32.329+0000] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-04T03:18:32.331+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:18:32.330+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-04T03:18:32.352+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:18:32.352+0000] {dag.py:2963} INFO - Creating ORM DAG for recalls_etl_v1
+[2023-11-04T03:18:32.353+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:18:32.353+0000] {dag.py:3722} INFO - Setting next_dagrun for recalls_etl_v1 to None, run_after=None
+[2023-11-04T03:18:32.376+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/recalls_etl_v1.py took 2.267 seconds
+[2023-11-04T03:19:02.592+0000] {processor.py:157} INFO - Started process (PID=101) to work on /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:19:02.593+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/recalls_etl_v1.py for tasks to queue
+[2023-11-04T03:19:02.596+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:19:02.595+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:19:03.101+0000] {processor.py:839} INFO - DAG(s) dict_keys(['recalls_etl_v1']) retrieved from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:19:03.123+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:19:03.122+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-04T03:19:03.136+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:19:03.136+0000] {dag.py:3722} INFO - Setting next_dagrun for recalls_etl_v1 to None, run_after=None
+[2023-11-04T03:19:03.160+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/recalls_etl_v1.py took 0.572 seconds
+[2023-11-04T03:19:33.879+0000] {processor.py:157} INFO - Started process (PID=160) to work on /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:19:33.881+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/recalls_etl_v1.py for tasks to queue
+[2023-11-04T03:19:33.885+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:19:33.885+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:19:34.531+0000] {processor.py:839} INFO - DAG(s) dict_keys(['recalls_etl_v1']) retrieved from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:19:34.550+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:19:34.549+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-04T03:19:34.563+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:19:34.563+0000] {dag.py:3722} INFO - Setting next_dagrun for recalls_etl_v1 to None, run_after=None
+[2023-11-04T03:19:34.585+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/recalls_etl_v1.py took 0.712 seconds
+[2023-11-04T03:20:05.103+0000] {processor.py:157} INFO - Started process (PID=218) to work on /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:20:05.104+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/recalls_etl_v1.py for tasks to queue
+[2023-11-04T03:20:05.107+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:20:05.106+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:20:05.647+0000] {processor.py:839} INFO - DAG(s) dict_keys(['recalls_etl_v1']) retrieved from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:20:05.668+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:20:05.667+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-04T03:20:05.682+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:20:05.682+0000] {dag.py:3722} INFO - Setting next_dagrun for recalls_etl_v1 to None, run_after=None
+[2023-11-04T03:20:05.705+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/recalls_etl_v1.py took 0.606 seconds
+[2023-11-04T03:20:36.045+0000] {processor.py:157} INFO - Started process (PID=274) to work on /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:20:36.048+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/recalls_etl_v1.py for tasks to queue
+[2023-11-04T03:20:36.052+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:20:36.051+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:20:36.600+0000] {processor.py:839} INFO - DAG(s) dict_keys(['recalls_etl_v1']) retrieved from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:20:36.621+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:20:36.620+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-04T03:20:36.636+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:20:36.636+0000] {dag.py:3722} INFO - Setting next_dagrun for recalls_etl_v1 to None, run_after=None
+[2023-11-04T03:20:36.659+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/recalls_etl_v1.py took 0.619 seconds
+[2023-11-04T03:21:07.531+0000] {processor.py:157} INFO - Started process (PID=331) to work on /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:21:07.532+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/recalls_etl_v1.py for tasks to queue
+[2023-11-04T03:21:07.536+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:21:07.536+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:21:08.057+0000] {processor.py:839} INFO - DAG(s) dict_keys(['recalls_etl_v1']) retrieved from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:21:08.082+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:21:08.081+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-04T03:21:08.096+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:21:08.095+0000] {dag.py:3722} INFO - Setting next_dagrun for recalls_etl_v1 to None, run_after=None
+[2023-11-04T03:21:08.120+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/recalls_etl_v1.py took 0.595 seconds
+[2023-11-04T03:21:38.308+0000] {processor.py:157} INFO - Started process (PID=391) to work on /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:21:38.309+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/recalls_etl_v1.py for tasks to queue
+[2023-11-04T03:21:38.312+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:21:38.312+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:21:38.844+0000] {processor.py:839} INFO - DAG(s) dict_keys(['recalls_etl_v1']) retrieved from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:21:38.866+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:21:38.865+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-04T03:21:38.879+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:21:38.879+0000] {dag.py:3722} INFO - Setting next_dagrun for recalls_etl_v1 to None, run_after=None
+[2023-11-04T03:21:38.903+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/recalls_etl_v1.py took 0.599 seconds
+[2023-11-04T03:22:09.131+0000] {processor.py:157} INFO - Started process (PID=451) to work on /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:22:09.133+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/recalls_etl_v1.py for tasks to queue
+[2023-11-04T03:22:09.135+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:22:09.135+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:22:09.672+0000] {processor.py:839} INFO - DAG(s) dict_keys(['recalls_etl_v1']) retrieved from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:22:09.696+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:22:09.695+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-04T03:22:09.709+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:22:09.709+0000] {dag.py:3722} INFO - Setting next_dagrun for recalls_etl_v1 to None, run_after=None
+[2023-11-04T03:22:09.730+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/recalls_etl_v1.py took 0.603 seconds
+[2023-11-04T03:22:39.808+0000] {processor.py:157} INFO - Started process (PID=512) to work on /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:22:39.809+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/recalls_etl_v1.py for tasks to queue
+[2023-11-04T03:22:39.812+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:22:39.811+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:22:40.293+0000] {processor.py:839} INFO - DAG(s) dict_keys(['recalls_etl_v1']) retrieved from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:22:40.312+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:22:40.312+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-04T03:22:40.324+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:22:40.324+0000] {dag.py:3722} INFO - Setting next_dagrun for recalls_etl_v1 to None, run_after=None
+[2023-11-04T03:22:40.348+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/recalls_etl_v1.py took 0.544 seconds
+[2023-11-04T03:23:10.971+0000] {processor.py:157} INFO - Started process (PID=569) to work on /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:23:10.973+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/recalls_etl_v1.py for tasks to queue
+[2023-11-04T03:23:10.976+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:23:10.976+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:23:11.538+0000] {processor.py:839} INFO - DAG(s) dict_keys(['recalls_etl_v1']) retrieved from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:23:11.561+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:23:11.560+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-04T03:23:11.574+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:23:11.574+0000] {dag.py:3722} INFO - Setting next_dagrun for recalls_etl_v1 to None, run_after=None
+[2023-11-04T03:23:11.598+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/recalls_etl_v1.py took 0.631 seconds
+[2023-11-04T03:23:41.677+0000] {processor.py:157} INFO - Started process (PID=638) to work on /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:23:41.678+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/recalls_etl_v1.py for tasks to queue
+[2023-11-04T03:23:41.681+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:23:41.680+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:23:42.227+0000] {processor.py:839} INFO - DAG(s) dict_keys(['recalls_etl_v1']) retrieved from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:23:42.258+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:23:42.256+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-04T03:23:42.276+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:23:42.276+0000] {dag.py:3722} INFO - Setting next_dagrun for recalls_etl_v1 to None, run_after=None
+[2023-11-04T03:23:42.319+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/recalls_etl_v1.py took 0.646 seconds
+[2023-11-04T03:24:12.402+0000] {processor.py:157} INFO - Started process (PID=695) to work on /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:24:12.403+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/recalls_etl_v1.py for tasks to queue
+[2023-11-04T03:24:12.406+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:24:12.405+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:24:12.962+0000] {processor.py:839} INFO - DAG(s) dict_keys(['recalls_etl_v1']) retrieved from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:24:12.985+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:24:12.984+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-04T03:24:13.000+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:24:13.000+0000] {dag.py:3722} INFO - Setting next_dagrun for recalls_etl_v1 to None, run_after=None
+[2023-11-04T03:24:13.026+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/recalls_etl_v1.py took 0.628 seconds
+[2023-11-04T03:24:43.772+0000] {processor.py:157} INFO - Started process (PID=752) to work on /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:24:43.775+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/recalls_etl_v1.py for tasks to queue
+[2023-11-04T03:24:43.781+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:24:43.781+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:24:44.376+0000] {processor.py:839} INFO - DAG(s) dict_keys(['recalls_etl_v1']) retrieved from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:24:44.399+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:24:44.399+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-04T03:24:44.415+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:24:44.414+0000] {dag.py:3722} INFO - Setting next_dagrun for recalls_etl_v1 to None, run_after=None
+[2023-11-04T03:24:44.447+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/recalls_etl_v1.py took 0.691 seconds
+[2023-11-04T03:25:14.651+0000] {processor.py:157} INFO - Started process (PID=813) to work on /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:25:14.652+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/recalls_etl_v1.py for tasks to queue
+[2023-11-04T03:25:14.655+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:25:14.654+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:25:15.280+0000] {processor.py:839} INFO - DAG(s) dict_keys(['recalls_etl_v1']) retrieved from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:25:15.301+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:25:15.300+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-04T03:25:15.315+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:25:15.315+0000] {dag.py:3722} INFO - Setting next_dagrun for recalls_etl_v1 to None, run_after=None
+[2023-11-04T03:25:15.338+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/recalls_etl_v1.py took 0.691 seconds
+[2023-11-04T03:28:09.968+0000] {processor.py:157} INFO - Started process (PID=34) to work on /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:28:09.970+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/recalls_etl_v1.py for tasks to queue
+[2023-11-04T03:28:09.975+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:28:09.975+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:28:11.033+0000] {processor.py:839} INFO - DAG(s) dict_keys(['recalls_etl_v1']) retrieved from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:28:11.227+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:28:11.225+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-04T03:28:11.245+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:28:11.244+0000] {dag.py:3722} INFO - Setting next_dagrun for recalls_etl_v1 to None, run_after=None
+[2023-11-04T03:28:11.276+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/recalls_etl_v1.py took 1.313 seconds
+[2023-11-04T03:28:41.645+0000] {processor.py:157} INFO - Started process (PID=96) to work on /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:28:41.646+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/recalls_etl_v1.py for tasks to queue
+[2023-11-04T03:28:41.649+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:28:41.648+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:28:42.203+0000] {processor.py:839} INFO - DAG(s) dict_keys(['recalls_etl_v1']) retrieved from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:28:42.223+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:28:42.222+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-04T03:28:42.236+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:28:42.236+0000] {dag.py:3722} INFO - Setting next_dagrun for recalls_etl_v1 to None, run_after=None
+[2023-11-04T03:28:42.260+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/recalls_etl_v1.py took 0.621 seconds
+[2023-11-04T03:29:12.388+0000] {processor.py:157} INFO - Started process (PID=153) to work on /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:29:12.390+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/recalls_etl_v1.py for tasks to queue
+[2023-11-04T03:29:12.393+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:29:12.393+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:29:13.094+0000] {processor.py:839} INFO - DAG(s) dict_keys(['recalls_etl_v1']) retrieved from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:29:13.116+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:29:13.115+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-04T03:29:13.130+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:29:13.130+0000] {dag.py:3722} INFO - Setting next_dagrun for recalls_etl_v1 to None, run_after=None
+[2023-11-04T03:29:13.153+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/recalls_etl_v1.py took 0.775 seconds
+[2023-11-04T03:29:43.640+0000] {processor.py:157} INFO - Started process (PID=211) to work on /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:29:43.643+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/recalls_etl_v1.py for tasks to queue
+[2023-11-04T03:29:43.647+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:29:43.646+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:29:44.193+0000] {processor.py:839} INFO - DAG(s) dict_keys(['recalls_etl_v1']) retrieved from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:29:44.213+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:29:44.213+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-04T03:29:44.226+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:29:44.226+0000] {dag.py:3722} INFO - Setting next_dagrun for recalls_etl_v1 to None, run_after=None
+[2023-11-04T03:29:44.249+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/recalls_etl_v1.py took 0.621 seconds
+[2023-11-04T03:30:14.990+0000] {processor.py:157} INFO - Started process (PID=269) to work on /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:30:14.991+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/recalls_etl_v1.py for tasks to queue
+[2023-11-04T03:30:14.996+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:30:14.995+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:30:15.552+0000] {processor.py:839} INFO - DAG(s) dict_keys(['recalls_etl_v1']) retrieved from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:30:15.575+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:30:15.574+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-04T03:30:15.588+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:30:15.587+0000] {dag.py:3722} INFO - Setting next_dagrun for recalls_etl_v1 to None, run_after=None
+[2023-11-04T03:30:15.609+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/recalls_etl_v1.py took 0.627 seconds
+[2023-11-04T03:30:45.641+0000] {processor.py:157} INFO - Started process (PID=330) to work on /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:30:45.643+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/recalls_etl_v1.py for tasks to queue
+[2023-11-04T03:30:45.645+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:30:45.645+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:30:46.147+0000] {processor.py:839} INFO - DAG(s) dict_keys(['recalls_etl_v1']) retrieved from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:30:46.168+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:30:46.168+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-04T03:30:46.182+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:30:46.182+0000] {dag.py:3722} INFO - Setting next_dagrun for recalls_etl_v1 to None, run_after=None
+[2023-11-04T03:30:46.206+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/recalls_etl_v1.py took 0.568 seconds
+[2023-11-04T03:31:07.624+0000] {processor.py:157} INFO - Started process (PID=377) to work on /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:31:07.626+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/recalls_etl_v1.py for tasks to queue
+[2023-11-04T03:31:07.629+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:31:07.629+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:31:08.133+0000] {processor.py:839} INFO - DAG(s) dict_keys(['recalls_etl_v1']) retrieved from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:31:08.262+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:31:08.261+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-04T03:31:08.279+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:31:08.279+0000] {dag.py:3722} INFO - Setting next_dagrun for recalls_etl_v1 to None, run_after=None
+[2023-11-04T03:31:08.310+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/recalls_etl_v1.py took 0.697 seconds
+[2023-11-04T03:31:13.124+0000] {processor.py:157} INFO - Started process (PID=379) to work on /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:31:13.127+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/recalls_etl_v1.py for tasks to queue
+[2023-11-04T03:31:13.140+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:31:13.140+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:31:14.006+0000] {processor.py:839} INFO - DAG(s) dict_keys(['recalls_etl_v1']) retrieved from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:31:14.019+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:31:14.018+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-04T03:31:14.034+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:31:14.034+0000] {dag.py:3722} INFO - Setting next_dagrun for recalls_etl_v1 to None, run_after=None
+[2023-11-04T03:31:14.063+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/recalls_etl_v1.py took 0.956 seconds
+[2023-11-04T03:31:24.407+0000] {processor.py:157} INFO - Started process (PID=429) to work on /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:31:24.409+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/recalls_etl_v1.py for tasks to queue
+[2023-11-04T03:31:24.412+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:31:24.412+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:31:25.165+0000] {processor.py:839} INFO - DAG(s) dict_keys(['recalls_etl_v1']) retrieved from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:31:25.191+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:31:25.190+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-04T03:31:25.207+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:31:25.207+0000] {dag.py:3722} INFO - Setting next_dagrun for recalls_etl_v1 to None, run_after=None
+[2023-11-04T03:31:25.233+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/recalls_etl_v1.py took 0.832 seconds
+[2023-11-04T03:31:55.345+0000] {processor.py:157} INFO - Started process (PID=493) to work on /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:31:55.346+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/recalls_etl_v1.py for tasks to queue
+[2023-11-04T03:31:55.349+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:31:55.348+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:31:55.849+0000] {processor.py:839} INFO - DAG(s) dict_keys(['recalls_etl_v1']) retrieved from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:31:55.869+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:31:55.868+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-04T03:31:55.890+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:31:55.889+0000] {dag.py:3722} INFO - Setting next_dagrun for recalls_etl_v1 to None, run_after=None
+[2023-11-04T03:31:55.926+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/recalls_etl_v1.py took 0.585 seconds
+[2023-11-04T03:31:59.848+0000] {processor.py:157} INFO - Started process (PID=495) to work on /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:31:59.849+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/recalls_etl_v1.py for tasks to queue
+[2023-11-04T03:31:59.851+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:31:59.851+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:32:00.370+0000] {processor.py:839} INFO - DAG(s) dict_keys(['recalls_etl_v1']) retrieved from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:32:00.391+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:32:00.390+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-04T03:32:00.405+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:32:00.405+0000] {dag.py:3722} INFO - Setting next_dagrun for recalls_etl_v1 to None, run_after=None
+[2023-11-04T03:32:00.435+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/recalls_etl_v1.py took 0.593 seconds
+[2023-11-04T03:32:07.539+0000] {processor.py:157} INFO - Started process (PID=497) to work on /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:32:07.541+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/recalls_etl_v1.py for tasks to queue
+[2023-11-04T03:32:07.546+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:32:07.545+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:32:08.052+0000] {processor.py:839} INFO - DAG(s) dict_keys(['recalls_etl_v1']) retrieved from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:32:08.173+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:32:08.173+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-04T03:32:08.187+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:32:08.186+0000] {dag.py:3722} INFO - Setting next_dagrun for recalls_etl_v1 to None, run_after=None
+[2023-11-04T03:32:08.213+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/recalls_etl_v1.py took 0.682 seconds
+[2023-11-04T03:32:11.137+0000] {processor.py:157} INFO - Started process (PID=499) to work on /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:32:11.139+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/recalls_etl_v1.py for tasks to queue
+[2023-11-04T03:32:11.144+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:32:11.144+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:32:11.715+0000] {processor.py:839} INFO - DAG(s) dict_keys(['recalls_etl_v1']) retrieved from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:32:11.727+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:32:11.727+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-04T03:32:11.741+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:32:11.741+0000] {dag.py:3722} INFO - Setting next_dagrun for recalls_etl_v1 to None, run_after=None
+[2023-11-04T03:32:11.767+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/recalls_etl_v1.py took 0.639 seconds
+[2023-11-04T03:32:42.473+0000] {processor.py:157} INFO - Started process (PID=557) to work on /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:32:42.477+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/recalls_etl_v1.py for tasks to queue
+[2023-11-04T03:32:42.481+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:32:42.481+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:32:42.990+0000] {processor.py:839} INFO - DAG(s) dict_keys(['recalls_etl_v1']) retrieved from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:32:43.011+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:32:43.010+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-04T03:32:43.025+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:32:43.024+0000] {dag.py:3722} INFO - Setting next_dagrun for recalls_etl_v1 to None, run_after=None
+[2023-11-04T03:32:43.048+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/recalls_etl_v1.py took 0.586 seconds
+[2023-11-04T03:33:13.464+0000] {processor.py:157} INFO - Started process (PID=614) to work on /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:33:13.466+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/recalls_etl_v1.py for tasks to queue
+[2023-11-04T03:33:13.471+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:33:13.471+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:33:13.962+0000] {processor.py:839} INFO - DAG(s) dict_keys(['recalls_etl_v1']) retrieved from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:33:13.983+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:33:13.982+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-04T03:33:13.996+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:33:13.996+0000] {dag.py:3722} INFO - Setting next_dagrun for recalls_etl_v1 to None, run_after=None
+[2023-11-04T03:33:14.023+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/recalls_etl_v1.py took 0.569 seconds
+[2023-11-04T03:33:44.098+0000] {processor.py:157} INFO - Started process (PID=671) to work on /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:33:44.101+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/recalls_etl_v1.py for tasks to queue
+[2023-11-04T03:33:44.106+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:33:44.106+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:33:44.594+0000] {processor.py:839} INFO - DAG(s) dict_keys(['recalls_etl_v1']) retrieved from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:33:44.615+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:33:44.614+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-04T03:33:44.627+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:33:44.627+0000] {dag.py:3722} INFO - Setting next_dagrun for recalls_etl_v1 to None, run_after=None
+[2023-11-04T03:33:44.649+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/recalls_etl_v1.py took 0.559 seconds
+[2023-11-04T03:34:14.962+0000] {processor.py:157} INFO - Started process (PID=728) to work on /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:34:14.964+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/recalls_etl_v1.py for tasks to queue
+[2023-11-04T03:34:14.969+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:34:14.968+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:34:15.508+0000] {processor.py:839} INFO - DAG(s) dict_keys(['recalls_etl_v1']) retrieved from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:34:15.528+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:34:15.528+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-04T03:34:15.544+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:34:15.543+0000] {dag.py:3722} INFO - Setting next_dagrun for recalls_etl_v1 to None, run_after=None
+[2023-11-04T03:34:15.590+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/recalls_etl_v1.py took 0.636 seconds
+[2023-11-04T03:34:45.739+0000] {processor.py:157} INFO - Started process (PID=785) to work on /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:34:45.744+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/recalls_etl_v1.py for tasks to queue
+[2023-11-04T03:34:45.753+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:34:45.752+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:34:46.307+0000] {processor.py:839} INFO - DAG(s) dict_keys(['recalls_etl_v1']) retrieved from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:34:46.328+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:34:46.328+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-04T03:34:46.341+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:34:46.341+0000] {dag.py:3722} INFO - Setting next_dagrun for recalls_etl_v1 to None, run_after=None
+[2023-11-04T03:34:46.362+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/recalls_etl_v1.py took 0.638 seconds
+[2023-11-04T03:35:16.845+0000] {processor.py:157} INFO - Started process (PID=843) to work on /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:35:16.847+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/recalls_etl_v1.py for tasks to queue
+[2023-11-04T03:35:16.851+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:35:16.850+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:35:17.338+0000] {processor.py:839} INFO - DAG(s) dict_keys(['recalls_etl_v1']) retrieved from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:35:17.360+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:35:17.359+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-04T03:35:17.378+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:35:17.377+0000] {dag.py:3722} INFO - Setting next_dagrun for recalls_etl_v1 to None, run_after=None
+[2023-11-04T03:35:17.401+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/recalls_etl_v1.py took 0.562 seconds
+[2023-11-04T03:35:47.585+0000] {processor.py:157} INFO - Started process (PID=900) to work on /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:35:47.587+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/recalls_etl_v1.py for tasks to queue
+[2023-11-04T03:35:47.592+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:35:47.591+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:35:48.073+0000] {processor.py:839} INFO - DAG(s) dict_keys(['recalls_etl_v1']) retrieved from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:35:48.094+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:35:48.093+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-04T03:35:48.108+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:35:48.108+0000] {dag.py:3722} INFO - Setting next_dagrun for recalls_etl_v1 to None, run_after=None
+[2023-11-04T03:35:48.133+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/recalls_etl_v1.py took 0.557 seconds
+[2023-11-04T03:36:18.563+0000] {processor.py:157} INFO - Started process (PID=957) to work on /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:36:18.566+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/recalls_etl_v1.py for tasks to queue
+[2023-11-04T03:36:18.569+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:36:18.569+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:36:19.248+0000] {processor.py:839} INFO - DAG(s) dict_keys(['recalls_etl_v1']) retrieved from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:36:19.267+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:36:19.266+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-04T03:36:19.281+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:36:19.280+0000] {dag.py:3722} INFO - Setting next_dagrun for recalls_etl_v1 to None, run_after=None
+[2023-11-04T03:36:19.304+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/recalls_etl_v1.py took 0.746 seconds
+[2023-11-04T03:36:49.400+0000] {processor.py:157} INFO - Started process (PID=1015) to work on /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:36:49.401+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/recalls_etl_v1.py for tasks to queue
+[2023-11-04T03:36:49.403+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:36:49.403+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:36:49.954+0000] {processor.py:839} INFO - DAG(s) dict_keys(['recalls_etl_v1']) retrieved from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:36:49.974+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:36:49.974+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-04T03:36:49.988+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:36:49.988+0000] {dag.py:3722} INFO - Setting next_dagrun for recalls_etl_v1 to None, run_after=None
+[2023-11-04T03:36:50.011+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/recalls_etl_v1.py took 0.615 seconds
+[2023-11-04T03:37:20.688+0000] {processor.py:157} INFO - Started process (PID=1073) to work on /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:37:20.695+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/recalls_etl_v1.py for tasks to queue
+[2023-11-04T03:37:20.700+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:37:20.699+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:37:21.198+0000] {processor.py:839} INFO - DAG(s) dict_keys(['recalls_etl_v1']) retrieved from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:37:21.218+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:37:21.218+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-04T03:37:21.233+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:37:21.233+0000] {dag.py:3722} INFO - Setting next_dagrun for recalls_etl_v1 to None, run_after=None
+[2023-11-04T03:37:21.256+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/recalls_etl_v1.py took 0.574 seconds
+[2023-11-04T03:37:44.463+0000] {processor.py:157} INFO - Started process (PID=1128) to work on /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:37:44.464+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/recalls_etl_v1.py for tasks to queue
+[2023-11-04T03:37:44.467+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:37:44.467+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:37:45.011+0000] {processor.py:839} INFO - DAG(s) dict_keys(['recalls_etl_v1']) retrieved from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:37:45.137+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:37:45.136+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-04T03:37:45.153+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:37:45.153+0000] {dag.py:3722} INFO - Setting next_dagrun for recalls_etl_v1 to None, run_after=None
+[2023-11-04T03:37:45.182+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/recalls_etl_v1.py took 0.733 seconds
+[2023-11-04T03:38:15.541+0000] {processor.py:157} INFO - Started process (PID=1185) to work on /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:38:15.543+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/recalls_etl_v1.py for tasks to queue
+[2023-11-04T03:38:15.545+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:38:15.545+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:38:16.060+0000] {processor.py:839} INFO - DAG(s) dict_keys(['recalls_etl_v1']) retrieved from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:38:16.081+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:38:16.081+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-04T03:38:16.095+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:38:16.095+0000] {dag.py:3722} INFO - Setting next_dagrun for recalls_etl_v1 to None, run_after=None
+[2023-11-04T03:38:16.120+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/recalls_etl_v1.py took 0.584 seconds
+[2023-11-04T03:38:46.684+0000] {processor.py:157} INFO - Started process (PID=1242) to work on /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:38:46.686+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/recalls_etl_v1.py for tasks to queue
+[2023-11-04T03:38:46.689+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:38:46.689+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:38:47.226+0000] {processor.py:839} INFO - DAG(s) dict_keys(['recalls_etl_v1']) retrieved from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:38:47.248+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:38:47.248+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-04T03:38:47.263+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:38:47.263+0000] {dag.py:3722} INFO - Setting next_dagrun for recalls_etl_v1 to None, run_after=None
+[2023-11-04T03:38:47.287+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/recalls_etl_v1.py took 0.608 seconds
+[2023-11-04T03:39:17.475+0000] {processor.py:157} INFO - Started process (PID=1299) to work on /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:39:17.478+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/recalls_etl_v1.py for tasks to queue
+[2023-11-04T03:39:17.481+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:39:17.481+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:39:18.015+0000] {processor.py:839} INFO - DAG(s) dict_keys(['recalls_etl_v1']) retrieved from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:39:18.036+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:39:18.035+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-04T03:39:18.051+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:39:18.051+0000] {dag.py:3722} INFO - Setting next_dagrun for recalls_etl_v1 to None, run_after=None
+[2023-11-04T03:39:18.077+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/recalls_etl_v1.py took 0.607 seconds
+[2023-11-04T03:39:48.300+0000] {processor.py:157} INFO - Started process (PID=1355) to work on /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:39:48.301+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/recalls_etl_v1.py for tasks to queue
+[2023-11-04T03:39:48.306+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:39:48.306+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:39:48.881+0000] {processor.py:839} INFO - DAG(s) dict_keys(['recalls_etl_v1']) retrieved from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:39:48.901+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:39:48.900+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-04T03:39:48.914+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:39:48.914+0000] {dag.py:3722} INFO - Setting next_dagrun for recalls_etl_v1 to None, run_after=None
+[2023-11-04T03:39:48.937+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/recalls_etl_v1.py took 0.646 seconds
+[2023-11-04T03:40:19.439+0000] {processor.py:157} INFO - Started process (PID=1413) to work on /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:40:19.441+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/recalls_etl_v1.py for tasks to queue
+[2023-11-04T03:40:19.445+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:40:19.445+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:40:19.951+0000] {processor.py:839} INFO - DAG(s) dict_keys(['recalls_etl_v1']) retrieved from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:40:19.973+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:40:19.972+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-04T03:40:19.986+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:40:19.986+0000] {dag.py:3722} INFO - Setting next_dagrun for recalls_etl_v1 to None, run_after=None
+[2023-11-04T03:40:20.008+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/recalls_etl_v1.py took 0.576 seconds
+[2023-11-04T03:40:50.132+0000] {processor.py:157} INFO - Started process (PID=1470) to work on /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:40:50.135+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/recalls_etl_v1.py for tasks to queue
+[2023-11-04T03:40:50.138+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:40:50.138+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:40:50.678+0000] {processor.py:839} INFO - DAG(s) dict_keys(['recalls_etl_v1']) retrieved from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:40:50.710+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:40:50.709+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-04T03:40:50.724+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:40:50.723+0000] {dag.py:3722} INFO - Setting next_dagrun for recalls_etl_v1 to None, run_after=None
+[2023-11-04T03:40:50.750+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/recalls_etl_v1.py took 0.625 seconds
+[2023-11-04T03:41:20.848+0000] {processor.py:157} INFO - Started process (PID=1528) to work on /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:41:20.849+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/recalls_etl_v1.py for tasks to queue
+[2023-11-04T03:41:20.853+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:41:20.853+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:41:21.392+0000] {processor.py:839} INFO - DAG(s) dict_keys(['recalls_etl_v1']) retrieved from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:41:21.413+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:41:21.412+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-04T03:41:21.426+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:41:21.426+0000] {dag.py:3722} INFO - Setting next_dagrun for recalls_etl_v1 to None, run_after=None
+[2023-11-04T03:41:21.447+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/recalls_etl_v1.py took 0.606 seconds
+[2023-11-04T03:41:51.505+0000] {processor.py:157} INFO - Started process (PID=1586) to work on /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:41:51.508+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/recalls_etl_v1.py for tasks to queue
+[2023-11-04T03:41:51.510+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:41:51.510+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:41:52.028+0000] {processor.py:839} INFO - DAG(s) dict_keys(['recalls_etl_v1']) retrieved from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:41:52.051+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:41:52.050+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-04T03:41:52.064+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:41:52.063+0000] {dag.py:3722} INFO - Setting next_dagrun for recalls_etl_v1 to None, run_after=None
+[2023-11-04T03:41:52.088+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/recalls_etl_v1.py took 0.588 seconds
+[2023-11-04T03:42:22.177+0000] {processor.py:157} INFO - Started process (PID=1643) to work on /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:42:22.178+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/recalls_etl_v1.py for tasks to queue
+[2023-11-04T03:42:22.181+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:42:22.181+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:42:22.711+0000] {processor.py:839} INFO - DAG(s) dict_keys(['recalls_etl_v1']) retrieved from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:42:22.733+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:42:22.732+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-04T03:42:22.749+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:42:22.749+0000] {dag.py:3722} INFO - Setting next_dagrun for recalls_etl_v1 to None, run_after=None
+[2023-11-04T03:42:22.776+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/recalls_etl_v1.py took 0.603 seconds
+[2023-11-04T03:42:53.280+0000] {processor.py:157} INFO - Started process (PID=1701) to work on /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:42:53.283+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/recalls_etl_v1.py for tasks to queue
+[2023-11-04T03:42:53.287+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:42:53.286+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:42:53.779+0000] {processor.py:839} INFO - DAG(s) dict_keys(['recalls_etl_v1']) retrieved from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:42:53.799+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:42:53.799+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-04T03:42:53.813+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:42:53.812+0000] {dag.py:3722} INFO - Setting next_dagrun for recalls_etl_v1 to None, run_after=None
+[2023-11-04T03:42:53.838+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/recalls_etl_v1.py took 0.564 seconds
+[2023-11-04T03:43:24.004+0000] {processor.py:157} INFO - Started process (PID=1758) to work on /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:43:24.009+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/recalls_etl_v1.py for tasks to queue
+[2023-11-04T03:43:24.014+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:43:24.013+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:43:24.482+0000] {processor.py:839} INFO - DAG(s) dict_keys(['recalls_etl_v1']) retrieved from /opt/airflow/dags/recalls_etl_v1.py
+[2023-11-04T03:43:24.503+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:43:24.502+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-04T03:43:24.515+0000] {logging_mixin.py:151} INFO - [2023-11-04T03:43:24.515+0000] {dag.py:3722} INFO - Setting next_dagrun for recalls_etl_v1 to None, run_after=None
+[2023-11-04T03:43:24.540+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/recalls_etl_v1.py took 0.544 seconds

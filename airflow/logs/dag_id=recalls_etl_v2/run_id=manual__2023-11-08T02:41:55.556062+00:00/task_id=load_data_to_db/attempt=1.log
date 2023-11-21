@@ -1,0 +1,14 @@
+[2023-11-08T02:42:04.346+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: recalls_etl_v2.load_data_to_db manual__2023-11-08T02:41:55.556062+00:00 [queued]>
+[2023-11-08T02:42:04.357+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: recalls_etl_v2.load_data_to_db manual__2023-11-08T02:41:55.556062+00:00 [queued]>
+[2023-11-08T02:42:04.357+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2023-11-08T02:42:04.374+0000] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): load_data_to_db> on 2023-11-08 02:41:55.556062+00:00
+[2023-11-08T02:42:04.381+0000] {standard_task_runner.py:57} INFO - Started process 614 to run task
+[2023-11-08T02:42:04.384+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'recalls_etl_v2', 'load_data_to_db', 'manual__2023-11-08T02:41:55.556062+00:00', '--job-id', '32', '--raw', '--subdir', 'DAGS_FOLDER/recalls_etl_v2.py', '--cfg-path', '/tmp/tmpdfkqijzc']
+[2023-11-08T02:42:04.385+0000] {standard_task_runner.py:85} INFO - Job 32: Subtask load_data_to_db
+[2023-11-08T02:42:04.442+0000] {task_command.py:416} INFO - Running <TaskInstance: recalls_etl_v2.load_data_to_db manual__2023-11-08T02:41:55.556062+00:00 [running]> on host d2f41c2a3488
+[2023-11-08T02:42:04.538+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='recalls_etl_v2' AIRFLOW_CTX_TASK_ID='load_data_to_db' AIRFLOW_CTX_EXECUTION_DATE='2023-11-08T02:41:55.556062+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-11-08T02:41:55.556062+00:00'
+[2023-11-08T02:42:06.195+0000] {logging_mixin.py:151} INFO - Success: Loaded 29232 recall records to recalls_db.
+[2023-11-08T02:42:06.196+0000] {python.py:194} INFO - Done. Returned value was: None
+[2023-11-08T02:42:06.209+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=recalls_etl_v2, task_id=load_data_to_db, execution_date=20231108T024155, start_date=20231108T024204, end_date=20231108T024206
+[2023-11-08T02:42:06.243+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-11-08T02:42:06.270+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

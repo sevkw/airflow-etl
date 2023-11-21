@@ -1,0 +1,15 @@
+[2023-11-14T02:33:11.749+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: recalls_etl_v1.get_raw_data manual__2023-11-14T02:33:06.924550+00:00 [queued]>
+[2023-11-14T02:33:11.759+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: recalls_etl_v1.get_raw_data manual__2023-11-14T02:33:06.924550+00:00 [queued]>
+[2023-11-14T02:33:11.760+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2023-11-14T02:33:11.780+0000] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): get_raw_data> on 2023-11-14 02:33:06.924550+00:00
+[2023-11-14T02:33:11.787+0000] {standard_task_runner.py:57} INFO - Started process 94 to run task
+[2023-11-14T02:33:11.790+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'recalls_etl_v1', 'get_raw_data', 'manual__2023-11-14T02:33:06.924550+00:00', '--job-id', '45', '--raw', '--subdir', 'DAGS_FOLDER/recalls_etl_v1.py', '--cfg-path', '/tmp/tmpk495dydn']
+[2023-11-14T02:33:11.791+0000] {standard_task_runner.py:85} INFO - Job 45: Subtask get_raw_data
+[2023-11-14T02:33:11.845+0000] {task_command.py:416} INFO - Running <TaskInstance: recalls_etl_v1.get_raw_data manual__2023-11-14T02:33:06.924550+00:00 [running]> on host c912e3390c69
+[2023-11-14T02:33:11.949+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='recalls_etl_v1' AIRFLOW_CTX_TASK_ID='get_raw_data' AIRFLOW_CTX_EXECUTION_DATE='2023-11-14T02:33:06.924550+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-11-14T02:33:06.924550+00:00'
+[2023-11-14T02:33:14.172+0000] {logging_mixin.py:151} INFO - <Response [200]>
+[2023-11-14T02:33:14.195+0000] {logging_mixin.py:151} INFO - Added 29270 recalled records.
+[2023-11-14T02:33:14.493+0000] {python.py:194} INFO - Done. Returned value was: None
+[2023-11-14T02:33:14.504+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=recalls_etl_v1, task_id=get_raw_data, execution_date=20231114T023306, start_date=20231114T023311, end_date=20231114T023314
+[2023-11-14T02:33:14.536+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-11-14T02:33:14.567+0000] {taskinstance.py:2778} INFO - 1 downstream tasks scheduled from follow-on schedule check

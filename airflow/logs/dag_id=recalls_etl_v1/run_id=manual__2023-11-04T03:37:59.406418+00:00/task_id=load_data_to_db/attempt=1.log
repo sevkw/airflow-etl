@@ -1,0 +1,106 @@
+[2023-11-04T03:38:09.399+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: recalls_etl_v1.load_data_to_db manual__2023-11-04T03:37:59.406418+00:00 [queued]>
+[2023-11-04T03:38:09.416+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: recalls_etl_v1.load_data_to_db manual__2023-11-04T03:37:59.406418+00:00 [queued]>
+[2023-11-04T03:38:09.417+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2023-11-04T03:38:09.435+0000] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): load_data_to_db> on 2023-11-04 03:37:59.406418+00:00
+[2023-11-04T03:38:09.442+0000] {standard_task_runner.py:57} INFO - Started process 222 to run task
+[2023-11-04T03:38:09.445+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'recalls_etl_v1', 'load_data_to_db', 'manual__2023-11-04T03:37:59.406418+00:00', '--job-id', '13', '--raw', '--subdir', 'DAGS_FOLDER/recalls_etl_v1.py', '--cfg-path', '/tmp/tmpgowg82te']
+[2023-11-04T03:38:09.446+0000] {standard_task_runner.py:85} INFO - Job 13: Subtask load_data_to_db
+[2023-11-04T03:38:09.505+0000] {task_command.py:416} INFO - Running <TaskInstance: recalls_etl_v1.load_data_to_db manual__2023-11-04T03:37:59.406418+00:00 [running]> on host d2f41c2a3488
+[2023-11-04T03:38:09.605+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='recalls_etl_v1' AIRFLOW_CTX_TASK_ID='load_data_to_db' AIRFLOW_CTX_EXECUTION_DATE='2023-11-04T03:37:59.406418+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-11-04T03:37:59.406418+00:00'
+[2023-11-04T03:38:09.734+0000] {taskinstance.py:1937} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1910, in _execute_context
+    self.dialect.do_execute(
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 736, in do_execute
+    cursor.execute(statement, parameters)
+psycopg2.errors.InvalidSchemaName: schema "data" does not exist
+LINE 2: CREATE TABLE data.recalls (
+                     ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 192, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 209, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/recalls_etl_v1.py", line 79, in load_to_db
+    df.to_sql('recalls', con=engine, schema='data', if_exists='replace', index=False)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/core/generic.py", line 2878, in to_sql
+    return sql.to_sql(
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/sql.py", line 769, in to_sql
+    return pandas_sql.to_sql(
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/sql.py", line 1910, in to_sql
+    table = self.prep_table(
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/sql.py", line 1814, in prep_table
+    table.create()
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/sql.py", line 914, in create
+    self._execute_create()
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/sql.py", line 900, in _execute_create
+    self.table.create(bind=self.pd_sql.con)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/sql/schema.py", line 962, in create
+    bind._run_ddl_visitor(ddl.SchemaGenerator, self, checkfirst=checkfirst)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 2221, in _run_ddl_visitor
+    visitorcallable(self.dialect, self, **kwargs).traverse_single(element)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/sql/visitors.py", line 524, in traverse_single
+    return meth(obj, **kw)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/sql/ddl.py", line 899, in visit_table
+    self.connection.execute(
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1385, in execute
+    return meth(self, multiparams, params, _EMPTY_EXECUTION_OPTS)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/sql/ddl.py", line 80, in _execute_on_connection
+    return connection._execute_ddl(
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1477, in _execute_ddl
+    ret = self._execute_context(
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1953, in _execute_context
+    self._handle_dbapi_exception(
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 2134, in _handle_dbapi_exception
+    util.raise_(
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1910, in _execute_context
+    self.dialect.do_execute(
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 736, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.ProgrammingError: (psycopg2.errors.InvalidSchemaName) schema "data" does not exist
+LINE 2: CREATE TABLE data.recalls (
+                     ^
+
+[SQL: 
+CREATE TABLE data.recalls (
+	recall_id BIGINT, 
+	organization TEXT, 
+	product_name TEXT, 
+	issue TEXT, 
+	category TEXT, 
+	updated_at TEXT, 
+	data_received_at TEXT, 
+	issue_category TEXT, 
+	data_ingested_at TIMESTAMP WITHOUT TIME ZONE
+)
+
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)
+[2023-11-04T03:38:09.757+0000] {taskinstance.py:1400} INFO - Marking task as FAILED. dag_id=recalls_etl_v1, task_id=load_data_to_db, execution_date=20231104T033759, start_date=20231104T033809, end_date=20231104T033809
+[2023-11-04T03:38:09.776+0000] {standard_task_runner.py:104} ERROR - Failed to execute job 13 for task load_data_to_db ((psycopg2.errors.InvalidSchemaName) schema "data" does not exist
+LINE 2: CREATE TABLE data.recalls (
+                     ^
+
+[SQL: 
+CREATE TABLE data.recalls (
+	recall_id BIGINT, 
+	organization TEXT, 
+	product_name TEXT, 
+	issue TEXT, 
+	category TEXT, 
+	updated_at TEXT, 
+	data_received_at TEXT, 
+	issue_category TEXT, 
+	data_ingested_at TIMESTAMP WITHOUT TIME ZONE
+)
+
+]
+(Background on this error at: https://sqlalche.me/e/14/f405); 222)
+[2023-11-04T03:38:09.819+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2023-11-04T03:38:09.838+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check
