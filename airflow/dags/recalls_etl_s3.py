@@ -14,6 +14,8 @@ from io import StringIO
 ## import AWS SDK boto3 module
 import boto3
 from botocore.exceptions import NoCredentialsError
+import os
+from dotenv import load_dotenv
 
 # define database cedentials for database connection
 HOST_NAME = 'recalls_db'
@@ -22,9 +24,10 @@ USER_NAME = 'admin'
 PASSWORD = 'admin'
 PORT_ID = 5432
 
+load_dotenv()
 # AWS Credentials
-AWS_ACCESS_KEY = 'AKIAYKICKQKQ2JQYZEVC'
-AWS_SECRET_KEY = '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'
+AWS_ACCESS_KEY = os.getenv('AWS_ACCESS_KEY')
+AWS_SECRET_KEY = os.getenv('AWS_SECRET_KEY')
 BUCKET_NAME = 'recalls-data'
 
 
